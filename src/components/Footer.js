@@ -4,28 +4,57 @@ import appstore from "../assets/appstore.jpg";
 import playstore from "../assets/playstore.jpg";
 const Footer = () => {
     return (
-      <footer id="footer">
-        <div className="leftFooter">
-            <h4>DOWNLOAD OUR APP</h4>
-            <p>Dowload App for Android and IOS mobile phone</p>
-            <img src={playstore} alt="Playstore" />
-            <img src={appstore} alt="Appstore" />
+      <div className="footer">
+        <div className="top">
+        <div>
+          <h1>Electhon</h1>
+           <p>Make your voting experience easy.</p>
         </div>
-
-        <div className="midFooter">
-            <h1>Voting</h1>
-            <p>Talk is cheap, voting is free; take it to the polls</p>
-
-            <p>Copyright 2023 &copy; PollMasters</p>
+        <div>
+          <a href="/">
+            <i className="fa-brands fa-facebook-square"></i>
+          </a>
+          <a href="/">
+            <i className="fa-brands fa-instagram-square"></i>
+          </a>
+          <a href="/">
+            <i className="fa-brands fa-behance-square"></i>
+          </a>
+          <a href="/">
+            <i className="fa-brands fa-twitter-square"></i>
+          </a>
         </div>
-
-        <div className="rightFooter">
-            <h4>Follow Us</h4>
-            <a href="#">Instagram</a>
-            <a href="#">Youtube</a>
-            <a href="#">Facebook</a>
         </div>
-      </footer>
+        <div className="bottom">
+          <div>
+            <h4>Project</h4>
+            <a href="/">Changelog</a>
+            <a href="/">Status</a>
+            <a href="/">License</a>
+            <a href="/">Allversions</a>
+          </div>
+          <div>
+            <h4>Community</h4>
+            <a href="/">GitHub</a>
+            <a href="/">Issues</a>
+            <a href="/">Project</a>
+            <a href="/">Twiiter</a>
+          </div>
+          <div>
+            <h4>Help</h4>
+            <a href="/">Support</a>
+            <a href="/">Troubleshooting</a>
+            <a href="/">Contact Us</a>
+          </div>
+          <div>
+            <h4>Others</h4>
+            <a href="/">Term of Service</a>
+            <a href="/">Privacy Policy</a>
+            <a href="/">License</a> 
+          </div>
+        </div>
+      </div>
+        
   
     );
   }
